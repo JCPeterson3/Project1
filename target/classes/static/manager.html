@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/manager.css" />
+</head>
+<body>
+    <h1>Finance Manager</h1>
+    <div id="userSection">
+        <label for="logout" id="user">Username</label>
+        <button type="button" class="btn btn-primary" name="logout" id="logout">Logout</button>
+    </div>
+    <div id="statusSection">
+        <label for="status">Status Filter</label>
+        <select id="status" name="status">
+            <option value="none">None</option>
+            <option value="pending">Pending</option>
+            <option value="approved">Approved</option>
+            <option value="denied">Denied</option>
+        </select>
+    </div>
+
+    <p id="tickets"></p>
+
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>Amount</th>
+                <th>Submitted</th>
+                <th>Resolved</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Type</th>
+                <th>Author</th>
+                <th>Resolver</th>
+                <th>Receipt</th>
+            </tr>
+        </thead>
+        <tbody id="reimbursements"></tbody>
+    </table>
+
+<!--
+    <button type="button" class="btn btn-default btn-sm btn-success"><span class="glyphicon glyphicon-ok"></span></button>
+    
+    <button type="button" class="btn btn-default btn-sm btn-danger"><span class="glyphicon glyphicon-remove"></span></button>
+-->
+    
+    <script src="js/manager.js"></script>
+</body>
+</html>
+
+

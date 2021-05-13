@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<!-- JDBC database connection settings -->
+		<property name="hibernate.connection.driver_class">org.mariadb.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mariadb://localhost:3306/project_1</property>
+		
+		<!-- SQL dialect -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MariaDB103Dialect</property>
+		
+		<!-- Show generated SQL queries -->
+		<property name="show_sql">true</property>
+		
+		<!-- Used to create, update, or validate database schema -->
+		<!-- Run create on setup, then switch to validate -->
+		<property name="hbm2ddl.auto">create</property>
+		
+		<!-- Specify our entity/class mappings here -->
+		<mapping class="com.revature.model.UserRole"></mapping>
+		<mapping class="com.revature.model.User"></mapping>
+		<mapping class="com.revature.model.ReimbStatus"></mapping>
+		<mapping class="com.revature.model.ReimbType"></mapping>
+		<mapping class="com.revature.model.Reimbursement"></mapping>
+		
+	</session-factory>
+</hibernate-configuration>

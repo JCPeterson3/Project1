@@ -1,0 +1,41 @@
+body {
+    color: #fff;
+    /* background: #d47677; */
+    background: #444;
+}
+
+#logout {
+    
+    font-size: 16px;
+    font-weight: bold;
+    background: #70c5c0;
+    margin-left: 30px;
+    margin-right: 20px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#status {
+    
+    font-size: 16px;
+    font-weight: bold;
+    background: #70c5c0;
+    border: none;
+    margin: 20px 5px 10px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+#userSection {
+    margin-top: -50px;
+    float: right;
+}
+
+#statusSection {
+    margin-left: 10%;
+}
