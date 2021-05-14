@@ -5208,3 +5208,30 @@ java.lang.NullPointerException: Cannot invoke "com.revature.model.Reimbursement.
 16:57:17.896 [main] INFO  io.javalin.Javalin - Starting Javalin ...
 16:57:17.963 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
 16:57:17.963 [main] INFO  io.javalin.Javalin - Javalin started in 67ms \o/
+19:55:07.381 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+19:55:07.613 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:55:07.703 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+19:55:07.705 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mariadb://localhost:3306/project_1]
+19:55:07.705 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+19:55:07.706 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+19:55:07.707 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+19:55:07.763 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+19:55:08.155 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@18a25bbd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+19:55:08.195 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@47311277] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+19:55:08.332 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:55:08.445 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1482ms to org.eclipse.jetty.util.log.Slf4jLog
+19:55:08.478 [main] INFO  io.javalin.Javalin - Static file handler added:
+    {urlPathPrefix: "/", path: "static", location: Location.CLASSPATH}
+    Resolved path: 'file:///C:/Users/joeca/Documents/workspace/Project1/target/classes/static/'
+19:55:08.493 [main] INFO  io.javalin.Javalin - 
+           __                      __ _
+          / /____ _ _   __ ____ _ / /(_)____
+     __  / // __ `/| | / // __ `// // // __ \
+    / /_/ // /_/ / | |/ // /_/ // // // / / /
+    \____/ \__,_/  |___/ \__,_//_//_//_/ /_/
+
+        https://javalin.io/documentation
+
+19:55:08.493 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+19:55:08.571 [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/
+19:55:08.571 [main] INFO  io.javalin.Javalin - Javalin started in 78ms \o/
