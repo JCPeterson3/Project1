@@ -6,8 +6,8 @@
 
 ## Features
 Currently the system can
-- Feature 1
-- Feature 2
+  - Feature 1
+  - Feature 2
 Future upgrades to the system could be:
-- Upgrade q
-- Upgrade 2
+  - Upgrade q
+  - Upgrade 2
